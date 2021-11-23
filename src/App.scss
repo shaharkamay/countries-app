@@ -1,0 +1,62 @@
+.App {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  height: 40vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  .country-comp {
+    display: flex;
+    cursor: pointer;
+    &:hover {
+      background-color: lightblue;
+    }
+    .country-pic {
+      display: flex;
+      align-items: center;
+      height: 1em;
+      margin: auto 1rem;
+    }
+  }
+}
+
+.country-inp {
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.clear-btn {
+  background-color: red;
+  width: 2rem;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.hidden {
+  // display: none;
+  // visibility: hidden;
+}
+
+#dropdown-basic {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  align-items: center;
+  background-color:white;
+  border: 1px solid grey;
+  padding: 0;
+  border-radius: 5px;
+  color: black;
+  padding-right: 1em;
+}
